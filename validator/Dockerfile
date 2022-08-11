@@ -5,4 +5,4 @@ COPY chiado/config.yaml /usr/config.yaml
 COPY chiado/genesis.ssz /usr/genesis.ssz
 COPY entrypoint.sh /usr/local/bin
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
