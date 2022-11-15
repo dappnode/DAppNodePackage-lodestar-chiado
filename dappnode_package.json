@@ -9,15 +9,16 @@
   "type": "service",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
-    "tropicar <tropicar@dappnode.io> (https://github.com/tropicar)"
+    "tropicar <tropicar@dappnode.io> (https://github.com/tropicar)",
+    "voss <voss@visnovalabs.io> (https://github.com/alexpeterson91)"
   ],
   "categories": ["Blockchain", "ETH2.0"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChainSafe/lodestar.git"
+    "url": "https://github.com/dappnode/DAppNodePackage-lodestar-chiado.git"
   },
   "bugs": {
-    "url": "https://github.com/ChainSafe/lodestar/issues"
+    "url": "https://github.com/dappnode/DAppNodePackage-lodestar-chiado/issues"
   },
   "links": {
     "ui": "http://ui.web3signer-chiado.dappnode?signer_url=http://web3signer.web3signer-chiado.dappnode:9000",
