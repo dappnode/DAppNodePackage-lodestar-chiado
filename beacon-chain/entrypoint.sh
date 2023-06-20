@@ -3,7 +3,7 @@
 exec node /usr/app/node_modules/.bin/lodestar \
     beacon \
     --preset=gnosis \
-    --paramsFile=/usr/config.yaml \
+    --network=chiado \
     --genesisStateFile=/usr/genesis.ssz \
     --jwt-secret=/jwtsecret \
     --execution.urls $HTTP_ENGINE \
