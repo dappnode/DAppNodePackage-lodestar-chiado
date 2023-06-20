@@ -3,7 +3,7 @@
 exec node /usr/app/node_modules/.bin/lodestar \
     validator \
     --preset=gnosis \
-    --paramsFile=/usr/config.yaml \
+    --network=chiado \
     --defaultFeeRecipient ${FEE_RECIPIENT} \
     --graffiti ${GRAFFITI} \
     --rootDir /var/lib/data \
